@@ -1,0 +1,28 @@
+.after-hero{
+    background-color: $light-grey-color;
+    
+
+    .container{
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 100px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    article{
+            max-width: 250px;
+            text-align: center;
+        img{
+            width: 55px;
+            padding-bottom: 5px;
+        }
+        h3{
+            padding: 10px;
+            font-weight: 800;
+        }
+        p{
+            @include p-style;
+        }
+    }
+}
+

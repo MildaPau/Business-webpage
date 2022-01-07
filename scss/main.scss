@@ -1,0 +1,45 @@
+main{
+    .container{
+
+        max-width: 1024px;
+        margin: 0 auto;
+        // display: flex;
+        // flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: 350px;
+        .text{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+            h2{
+                padding: 0 50px 10px 50px;
+            }
+            p{
+                @include p-style; 
+                padding: 0 50px;
+            }
+        }
+
+        .image-1{
+            background: url(../img/bg-showcase-1.jpg);
+            background-size: cover;
+        }
+        .image-2{
+            background: url(../img/bg-showcase-2.jpg);
+            background-size: cover;
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+        .image-3{
+            background: url(../img/bg-showcase-3.jpg);
+            background-size: cover;
+        }
+
+    
+
+    }
+    
+}
+

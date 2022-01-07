@@ -1,0 +1,56 @@
+@mixin button-style {
+            border: none;
+            border-radius: 4px;
+            background-color: $blue-color;
+            color: white;
+            font-size: 0.9rem;
+            line-height: 35px;
+            padding: 0 20px;
+}
+
+@mixin p-style {
+    line-height: 20px;
+    color: $text-color;
+    font-size: 0.9rem;
+}
+
+@mixin bg-img-align {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    
+}
+
+@mixin bg-img-before {
+    &::before{
+        content: " ";
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.3;
+    }
+}
+
+@mixin sing-up-container {
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: center;
+        z-index: 1;
+        padding: 0 15px;
+}
+
+@mixin sing-up-input {
+    width: 350px;
+    border: none;
+    line-height: 35px;
+    border-radius: 4px;
+    color: $text-color;
+    margin-right: 10px;
+}
+
+@mixin middle-dot {
+    padding: 0 10px;
+}
