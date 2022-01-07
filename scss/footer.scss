@@ -15,6 +15,10 @@ footer{
                     text-decoration: none;
                     color: $blue-color;
                     font-size: 0.9rem;
+                    transition: transition 0.3s;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
 
                     span{
                         @include middle-dot;
@@ -35,6 +39,10 @@ footer{
                 img{
                     width: 25px;
                     height: 25px;
+                    transition: transform 0.3s;
+                    &:hover{
+                        transform: scale(1.7);
+                    }
                 }
             }
             

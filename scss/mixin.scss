@@ -8,6 +8,12 @@
             padding: 0 20px;
 }
 
+@mixin button-hover-style {
+    background-color: white;
+    color: $blue-color;
+    border: 2px solid $blue-color;
+}
+
 @mixin p-style {
     line-height: 20px;
     color: $text-color;

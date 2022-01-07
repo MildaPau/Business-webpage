@@ -21,6 +21,9 @@
         }
         button{
             @include button-style;
+            &:hover{
+                @include button-hover-style;
+            }
         }
     }
 }

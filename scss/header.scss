@@ -23,7 +23,12 @@ header{
             background-color: $blue-color;
             color: white;
             font-size: 0.9rem;
+
+            &:hover{
+            @include button-hover-style;
         }
+        }
+        
     }
 
 }
